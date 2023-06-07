@@ -12,6 +12,6 @@ def YMLtoJS(a, b):
     return_json(b, data)
     print("Wykonano!")
 
-def return_json(a, data):
+def write_json(a, data):
     with open(a, "w") as f:
         f.write(json.dumps(data)) 
